@@ -169,6 +169,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geeb/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/lge/geeb/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/lge/geeb/proprietary/lib/lib_dlb_msd.so:system/lib/lib_dlb_msd.so \
+	vendor/lge/geeb/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/geeb/proprietary/vendor/firmware/bcm2079x_firmware.ncd:system/vendor/firmware/bcm2079x_firmware.ncd \
     vendor/lge/geeb/proprietary/vendor/firmware/bcm2079x_pre_firmware.ncd:system/vendor/firmware/bcm2079x_pre_firmware.ncd \
     vendor/lge/geeb/proprietary/vendor/firmware/discretix/dxhdcp2.b00:system/vendor/firmware/discretix/dxhdcp2.b00 \
