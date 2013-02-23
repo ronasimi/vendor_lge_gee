@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geeb/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/geeb/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/geeb/proprietary/bin/nl_listener:system/bin/nl_listener \
-    vendor/lge/geeb/proprietary/bin/PktRspTest:system/bin/PktRspTest \
     vendor/lge/geeb/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/lge/geeb/proprietary/bin/qcks:system/bin/qcks \
     vendor/lge/geeb/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -37,12 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geeb/proprietary/bin/radish:system/bin/radish \
     vendor/lge/geeb/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/geeb/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/lge/geeb/proprietary/bin/sns_cm_conc_test:system/bin/sns_cm_conc_test \
-    vendor/lge/geeb/proprietary/bin/sns_cm_test:system/bin/sns_cm_test \
-    vendor/lge/geeb/proprietary/bin/sns_debug_file_test:system/bin/sns_debug_file_test \
-    vendor/lge/geeb/proprietary/bin/sns_dsps_tc0001:system/bin/sns_dsps_tc0001 \
-    vendor/lge/geeb/proprietary/bin/sns_smr_loopback_test:system/bin/sns_smr_loopback_test \
-    vendor/lge/geeb/proprietary/bin/test_diag:system/bin/test_diag \
     vendor/lge/geeb/proprietary/bin/thermald:system/bin/thermald \
     vendor/lge/geeb/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/lge/geeb/proprietary/bin/usbhub_init:system/bin/usbhub_init \
@@ -63,6 +56,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geeb/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/lge/geeb/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/lge/geeb/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+    vendor/lge/geeb/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
+    vendor/lge/geeb/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
+    vendor/lge/geeb/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
+    vendor/lge/geeb/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
+    vendor/lge/geeb/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
+    vendor/lge/geeb/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/lge/geeb/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
     vendor/lge/geeb/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
     vendor/lge/geeb/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
@@ -73,6 +72,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geeb/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/lge/geeb/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/lge/geeb/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+    vendor/lge/geeb/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
     vendor/lge/geeb/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/geeb/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/lge/geeb/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
@@ -164,7 +164,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geeb/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
     vendor/lge/geeb/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/lge/geeb/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
-    vendor/lge/geeb/proprietary/lib/libsensor_test.so:system/lib/libsensor_test.so \
     vendor/lge/geeb/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/lge/geeb/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/lge/geeb/proprietary/lib/libxml.so:system/lib/libxml.so \
@@ -176,11 +175,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geeb/proprietary/vendor/firmware/discretix/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03 \
     vendor/lge/geeb/proprietary/vendor/firmware/discretix/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt \
     vendor/lge/geeb/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
-    vendor/lge/geeb/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
-    vendor/lge/geeb/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
-    vendor/lge/geeb/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
-    vendor/lge/geeb/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
-    vendor/lge/geeb/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
-    vendor/lge/geeb/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt
-
-
+    vendor/lge/geeb/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/lge/geeb/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/lge/geeb/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/lge/geeb/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
