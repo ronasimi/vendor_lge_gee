@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geeb/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
     vendor/lge/geeb/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
     vendor/lge/geeb/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
-    vendor/lge/geeb/proprietary/etc/firmware/rpm.mbn:system/etc/firmware/rpm.mbn \
     vendor/lge/geeb/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/lge/geeb/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
     vendor/lge/geeb/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
