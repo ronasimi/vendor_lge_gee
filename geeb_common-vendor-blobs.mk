@@ -85,6 +85,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geeb_common/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
     vendor/lge/geeb_common/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/lge/geeb_common/proprietary/lib/libcamera_fast_af.so:system/lib/libcamera_fast_af.so \
+    vendor/lge/geeb_common/proprietary/lib/libchromatix_imx091_default_video.so:system/lib/libchromatix_imx091_default_video.so \
+    vendor/lge/geeb_common/proprietary/lib/libchromatix_imx091_preview.so:system/lib/libchromatix_imx091_preview.so \
+    vendor/lge/geeb_common/proprietary/lib/libchromatix_imx091_video_hd.so:system/lib/libchromatix_imx091_video_hd.so \
+    vendor/lge/geeb_common/proprietary/lib/libchromatix_imx091_zsl.so:system/lib/libchromatix_imx091_zsl.so \
     vendor/lge/geeb_common/proprietary/lib/libchromatix_imx111_default_video.so:system/lib/libchromatix_imx111_default_video.so \
     vendor/lge/geeb_common/proprietary/lib/libchromatix_imx111_preview.so:system/lib/libchromatix_imx111_preview.so \
     vendor/lge/geeb_common/proprietary/lib/libchromatix_imx111_zsl.so:system/lib/libchromatix_imx111_zsl.so \
