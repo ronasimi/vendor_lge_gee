@@ -74,7 +74,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/lge/gee/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
     vendor/lge/gee/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
-    vendor/lge/gee/proprietary/lib/hw/camera.geeb.so:system/lib/hw/camera.geeb.so \
     vendor/lge/gee/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/gee/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/lge/gee/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
