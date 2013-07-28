@@ -67,6 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
     vendor/lge/gee/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/lge/gee/proprietary/lib/libacdbdata.so:system/lib/libacdbdata.so \
+    vendor/lge/gee/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/gee/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/lge/gee/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/gee/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
@@ -172,4 +173,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
     vendor/lge/gee/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
     vendor/lge/gee/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
-    vendor/lge/gee/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so
+    vendor/lge/gee/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/lge/gee/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/lge/gee/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/lge/gee/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/lge/gee/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
