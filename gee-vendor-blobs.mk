@@ -72,7 +72,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/gee/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/lge/gee/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/lge/gee/proprietary/libc2d30-a3xx.so:system/lib/libc2d30-a3xx.so \
+    vendor/lge/gee/proprietary/lib/libc2d30-a3xx.so:system/lib/libc2d30-a3xx.so \
     vendor/lge/gee/proprietary/lib/libc2d30.so:system/lib/libc2d30.so \
     vendor/lge/gee/proprietary/lib/libCB.so:system/lib/libCB.so \
     vendor/lge/gee/proprietary/lib/libchromatix_imx111_default_video.so:system/lib/libchromatix_imx111_default_video.so \
