@@ -75,7 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libc2d30-a3xx.so:system/lib/libc2d30-a3xx.so \
     vendor/lge/gee/proprietary/lib/libc2d30.so:system/lib/libc2d30.so \
     vendor/lge/gee/proprietary/lib/libcamera_fast_af.so:system/lib/libcamera_fast_af.so \
-	vendor/lge/gee/proprietary/lib/libCB.so:system/lib/libCB.so \
+    vendor/lge/gee/proprietary/lib/libCB.so:system/lib/libCB.so \
     vendor/lge/gee/proprietary/lib/libchromatix_imx111_default_video.so:system/lib/libchromatix_imx111_default_video.so \
     vendor/lge/gee/proprietary/lib/libchromatix_imx111_preview.so:system/lib/libchromatix_imx111_preview.so \
     vendor/lge/gee/proprietary/lib/libchromatix_imx111_zsl.so:system/lib/libchromatix_imx111_zsl.so \
@@ -122,8 +122,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
     vendor/lge/gee/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lge/gee/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-	vendor/lge/gee/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-	vendor/lge/gee/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/lge/gee/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/lge/gee/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/gee/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/lge/gee/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/lge/gee/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
@@ -131,7 +131,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
     vendor/lge/gee/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/lge/gee/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-	vendor/lge/gee/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
+    vendor/lge/gee/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/gee/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/lge/gee/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/gee/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
