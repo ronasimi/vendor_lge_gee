@@ -121,7 +121,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/lge/gee/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
     vendor/lge/gee/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/lge/gee/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/lge/gee/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+	vendor/lge/gee/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+	vendor/lge/gee/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/gee/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/lge/gee/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/lge/gee/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
