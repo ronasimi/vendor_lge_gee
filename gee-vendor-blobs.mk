@@ -149,13 +149,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/lge/gee/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/lge/gee/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
-    vendor/lge/gee/proprietary/vendor/firmware/dsps.b00:system/vendor/firmware/dsps.b00 \
-    vendor/lge/gee/proprietary/vendor/firmware/dsps.b01:system/vendor/firmware/dsps.b01 \
-    vendor/lge/gee/proprietary/vendor/firmware/dsps.b02:system/vendor/firmware/dsps.b02 \
-    vendor/lge/gee/proprietary/vendor/firmware/dsps.b03:system/vendor/firmware/dsps.b03 \
-    vendor/lge/gee/proprietary/vendor/firmware/dsps.b04:system/vendor/firmware/dsps.b04 \
-    vendor/lge/gee/proprietary/vendor/firmware/dsps.b05:system/vendor/firmware/dsps.b05 \
-    vendor/lge/gee/proprietary/vendor/firmware/dsps.mdt:system/vendor/firmware/dsps.mdt \
     vendor/lge/gee/proprietary/vendor/firmware/q6.b00:system/vendor/firmware/q6.b00 \
     vendor/lge/gee/proprietary/vendor/firmware/q6.b01:system/vendor/firmware/q6.b01 \
     vendor/lge/gee/proprietary/vendor/firmware/q6.b03:system/vendor/firmware/q6.b03 \
