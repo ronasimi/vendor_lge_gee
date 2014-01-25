@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/egl/libplayback_adreno.so:system/lib/egl/libplayback_adreno.so \
     vendor/lge/gee/proprietary/lib/egl/libq3dtools_adreno.so:system/lib/egl/libq3dtools_adreno.so \
     vendor/lge/gee/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
-    vendor/lge/gee/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/lge/gee/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/lge/gee/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/lge/gee/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
