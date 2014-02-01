@@ -66,7 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/lge/gee/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/lge/gee/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
-    vendor/lge/gee/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/lge/gee/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/gee/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/gee/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
